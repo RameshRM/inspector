@@ -1,0 +1,29 @@
+{
+  "name": "inspector",
+  "version": "0.0.1",
+  "description": "A library to inspect function executions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RameshRM/inspector.git"
+  },
+  "keywords": [
+    "inspector",
+    "code",
+    "anlyzer"
+  ],
+  "author": "RameshRM <rmrmail@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/RameshRM/inspector/issues"
+  },
+  "homepage": "https://github.com/RameshRM/inspector",
+  "dependencies":{
+    "walk-the-path": "*",
+    "esprima": "*",
+    "escodegen" : "*"
+  }
+}
